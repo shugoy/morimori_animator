@@ -16,7 +16,7 @@ git clone https://github.com/shugoy/morimori_animator.git
 cd morimori_animator
 ```
 
-## Usage:
+## Usage
 ```
 python morimori.py path/to/input.png path/to/output.gif
 ```
