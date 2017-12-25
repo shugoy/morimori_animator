@@ -1,8 +1,6 @@
 # Morimori Animator
 
-<img src=images/kusamori.gif>
-<img src=images/shinzou.gif>
-<img src=images/Lenna.gif>
+<img src=images/kusamori.gif> <img src=images/shinzou.gif> <img src=images/Lenna.gif>
 
 This python script converts an image into an animated gif.
 
