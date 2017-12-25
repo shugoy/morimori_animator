@@ -31,13 +31,13 @@ def main():
     outname  = sys.argv[2]
     img = Image.open(filename)
     im = img.copy().convert("RGBA")
-    white = Image.new('RGBA', (im.size), (255,255,255, 0))
+    base = Image.new('RGBA', (im.size), (255,255,255, 0))
     
-    im1 = composite_center(im, white, 1.4)
-    white2 = Image.new('RGBA', (im.size), (200,200,200, 0))
-    im1 = ImageChops.screen(im1, white2)
+    im1 = composite_center(im, base, 1.4)
+    white = Image.new('RGBA', (im.size), (200,200,200, 0))
+    im1 = ImageChops.screen(im1, white)
     
-    im2 = composite_center(im, white, 0.9)
+    im2 = composite_center(im, base, 0.9)
     
     if not os.path.exists(".tmp"):
         os.mkdir(".tmp")
