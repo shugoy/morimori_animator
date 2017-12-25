@@ -12,7 +12,7 @@ This python script converts an image into an animated gif.
 ## Setup
 Clone this repo.
 ```
-git clone 
+git clone https://github.com/shugoy/morimori_animator.git
 cd morimori_animator
 ```
 
